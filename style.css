@@ -1,0 +1,31 @@
+
+.buttons {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 20px;
+    border: 2px solid slategray;
+    border-radius: 10px;
+}
+
+button {
+    padding: 16px 30px;
+    font-size: 20px;
+}
+
+.mainBox {
+    margin: auto;
+    width: 20%;
+    margin-top: 10px;
+    padding: 5px;
+}
+.innerfield {
+    margin: auto;
+    border: 2px solid slategray;
+    border-radius: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="buttons">
+            <button onclick="paraHandler('minus')">-</button>
+            <button disabled id="textNumber">16</button>
+            <button onclick="paraHandler('plus')">+</button>
+            <button onclick=boldPara()>Bold</button>
+            <button onclick=ItalicPara()>Italic</button>
+            <input type="color" id="color" oninput="colorChange(this)">
+        </div>
+    </div>
+    <div class="mainBox">
+        <input class="innerfield" type="text" placeholder="Enter Text" id="para">
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
